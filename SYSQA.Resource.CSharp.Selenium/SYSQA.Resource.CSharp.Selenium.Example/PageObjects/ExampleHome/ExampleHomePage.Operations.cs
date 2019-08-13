@@ -1,6 +1,7 @@
-﻿using SYSQA.Resource.CSharp.Selenium.PageObjects.ExampleResult;
+﻿using SYSQA.Resource.CSharp.Selenium.Example.PageObjects.ExampleResult;
+using SYSQA.Resource.CSharp.Selenium.PageObjects;
 
-namespace SYSQA.Resource.CSharp.Selenium.PageObjects.ExampleHome
+namespace SYSQA.Resource.CSharp.Selenium.Example.PageObjects.ExampleHome
 {
     public partial class ExampleHomePage : BasePage
     {

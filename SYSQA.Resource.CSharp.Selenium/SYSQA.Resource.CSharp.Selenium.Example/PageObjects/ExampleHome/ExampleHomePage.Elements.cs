@@ -1,7 +1,8 @@
 ﻿using OpenQA.Selenium;
+using SYSQA.Resource.CSharp.Selenium.PageObjects;
 using SYSQA.Resource.CSharp.Selenium.Utilities;
 
-namespace SYSQA.Resource.CSharp.Selenium.PageObjects.ExampleHome
+namespace SYSQA.Resource.CSharp.Selenium.Example.PageObjects.ExampleHome
 {
     public partial class ExampleHomePage : BasePage
     {
