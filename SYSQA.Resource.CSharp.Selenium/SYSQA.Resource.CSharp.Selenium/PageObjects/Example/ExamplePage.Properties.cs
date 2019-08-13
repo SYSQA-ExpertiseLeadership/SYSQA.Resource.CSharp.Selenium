@@ -1,8 +1,6 @@
 ﻿namespace SYSQA.Resource.CSharp.Selenium.PageObjects.Example
 {
-    public partial class Example
+    public partial class ExamplePage : BasePage
     {
-        public Example() {
-        }
     }
 }
