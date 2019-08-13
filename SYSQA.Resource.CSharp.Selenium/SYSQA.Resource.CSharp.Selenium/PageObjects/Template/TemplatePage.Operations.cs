@@ -12,6 +12,7 @@
      - Wanneer de applicatie verandert kunnen we één methode aanpassen 
         en alle tests zouden weer moeten werken. 
     */
+    
     public partial class TemplatePage : BasePage
     {
     }
