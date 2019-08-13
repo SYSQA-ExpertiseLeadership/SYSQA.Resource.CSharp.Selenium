@@ -3,10 +3,16 @@ using OpenQA.Selenium.Chrome;
 
 namespace SYSQA.Resource.CSharp.Selenium.Utilities
 {
+    /*
+     
+         */
     public static class BrowserManager
     {
         public static IWebDriver _driver;
 
+        /// <summary>
+        /// 
+        /// </summary>
         public static IWebDriver Instance
         {
             get
@@ -18,7 +24,12 @@ namespace SYSQA.Resource.CSharp.Selenium.Utilities
                 return _driver;
             }
         }
-
+        /// <summary>
+        /// Zoek een WebElement op de pagina.
+        /// wanneer je het element niet kan vinden geef dan niets terug.
+        /// </summary>
+        /// <param name="by"></param>
+        /// <returns></returns>
         public static IWebElement TryFindElement(By by) {
             try
             {
@@ -31,6 +42,10 @@ namespace SYSQA.Resource.CSharp.Selenium.Utilities
             }
 
         }
+        /// <summary>
+        /// Sluit de browser en onderliggende driver.
+        /// De volgende keer dat we BrowserManager.Instance aanroepen wordt er een nieuwe browser geopent.
+        /// </summary>
         public static void CloseBrowser()
         {
             _driver.Quit();

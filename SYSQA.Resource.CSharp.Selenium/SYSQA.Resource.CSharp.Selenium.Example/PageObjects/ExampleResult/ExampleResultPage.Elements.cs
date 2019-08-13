@@ -1,12 +1,8 @@
 ﻿using OpenQA.Selenium;
+using SYSQA.Resource.CSharp.Selenium.PageObjects;
 using SYSQA.Resource.CSharp.Selenium.Utilities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SYSQA.Resource.CSharp.Selenium.PageObjects.ExampleResult
+namespace SYSQA.Resource.CSharp.Selenium.Example.PageObjects.ExampleResult
 {
     public partial class ExampleResultPage : BasePage
     {
