@@ -34,6 +34,5 @@ namespace Tests
         {
             BrowserManager.CloseBrowser();
         }
-
     }
 }

@@ -63,9 +63,12 @@
   <ItemGroup>
     <Compile Include="OneTimeSetup.cs" />
     <Compile Include="PageObjects\BasePage.cs" />
-    <Compile Include="PageObjects\Example\ExamplePage.Elements.cs" />
-    <Compile Include="PageObjects\Example\ExamplePage.Functions.cs" />
-    <Compile Include="PageObjects\Example\ExamplePage.Properties.cs" />
+    <Compile Include="PageObjects\ExampleHome\ExampleHomePage.Elements.cs" />
+    <Compile Include="PageObjects\ExampleHome\ExampleHomePage.Operations.cs" />
+    <Compile Include="PageObjects\ExampleHome\ExampleHomePage.Properties.cs" />
+    <Compile Include="PageObjects\ExampleResult\ExampleResultPage.Operations.cs" />
+    <Compile Include="PageObjects\ExampleResult\ExampleResultPage.Properties.cs" />
+    <Compile Include="PageObjects\ExampleResult\ExampleResultPage.Elements.cs" />
     <Compile Include="PageObjects\SUT\ExampleSUT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestCases\ExampleTestClass.cs" />
