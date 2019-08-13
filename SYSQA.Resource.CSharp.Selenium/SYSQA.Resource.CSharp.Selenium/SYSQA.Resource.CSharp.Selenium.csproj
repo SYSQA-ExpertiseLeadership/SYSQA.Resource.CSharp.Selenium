@@ -65,6 +65,7 @@
     <Compile Include="PageObjects\BasePage.cs" />
     <Compile Include="PageObjects\SUT\App.cs" />
     <Compile Include="PageObjects\SUT\ExampleHomePage.cs" />
+    <Compile Include="PageObjects\SUT\ExampleApp.cs" />
     <Compile Include="PageObjects\Template\TemplatePage.Elements.cs" />
     <Compile Include="PageObjects\Template\TemplatePage.Properties.cs" />
     <Compile Include="PageObjects\Template\TemplatePage.Operations.cs" />
