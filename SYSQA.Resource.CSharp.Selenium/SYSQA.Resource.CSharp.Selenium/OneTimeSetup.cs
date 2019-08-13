@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using SYSQA.Resource.CSharp.Selenium.Utilities;
 
 namespace Tests
 {
@@ -12,7 +13,7 @@ namespace Tests
             * Het aanmaken van een account die in alle testgevallen gebruikt gaat worden
         */
         [OneTimeSetUp]
-        public void Setup()
+        public void OneTimeSetupMethod()
         {
         }
         /* 
@@ -23,8 +24,16 @@ namespace Tests
             * Het verwijderen van een gebruikt test account
         */
         [OneTimeTearDown]
-        public void TearDown()
+        public void OneTimeTearDownMethod()
         {
+            // TODO
         }
+
+        [TearDown]
+        public void TearDownMethod()
+        {
+            BrowserManager.CloseBrowser();
+        }
+
     }
 }

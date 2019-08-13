@@ -31,7 +31,7 @@ namespace SYSQA.Resource.CSharp.Selenium.Utilities
             }
 
         }
-        public static void Quit()
+        public static void CloseBrowser()
         {
             _driver.Quit();
             _driver.Dispose();
