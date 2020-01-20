@@ -1,6 +1,5 @@
 ﻿namespace SYSQA.Resource.CSharp.Selenium.PageObjects.Template
 {
-
     /*
     In deze klasse verzamelen we alle eigenschappen van de pagina die we willen weten.
     Voorbeelden van deze eigenschappen kunnen zijn:
