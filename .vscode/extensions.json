@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-vscode.csharp",
+        "patcx.vscode-nuget-gallery",
+        "wghats.vscode-nxunit-test-adapter",
+        "hbenl.vscode-test-explorer",
+        "matijarmk.dotnet-core-commands",
+        "laurenttreguier.vscode-simple-icons"
+    ]
+}
