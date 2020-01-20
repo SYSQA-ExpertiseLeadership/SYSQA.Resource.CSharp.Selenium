@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"nxunitExplorer.nunit": "%userprofile%\\.nuget\\packages\\nunit.consolerunner\\3.10.0\\tools\\nunit3-console.exe"
+	}
+}
