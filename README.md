@@ -44,8 +44,17 @@ De volgende stappen moet je nemen voor dat je aan dit project kunt beginnen.
 
 <img src="./resources/ReloadTests.gif">
 
+Als de tests succesvol draaien ben je klaar om het project uit te breiden met jou eigen testcases.
+
+Heb je problemen? neem dan contact op met één van de maintainers van dit project.
+
+## Meer informatie
+
+Voor meer informatie over hoe het project werkt kun je kijken naar de comments die in de .cs files geschreven zijn.
+
+Meer informatie over waarom bepaalde keuzes gemaakt zijn kun je vinden in de [wiki](https://github.com/SYSQA-ExpertiseLeadership/SYSQA.Resource.CSharp.Selenium/wiki). Mis je informatie of heb je specifieke vragen? Bel,Mail of maak een [github issue](https://github.com/SYSQA-ExpertiseLeadership/SYSQA.Resource.CSharp.Selenium/issues) aan we staan altijd open voor vragen en feedback.
+
 ## Tips
 
 * Als een verandering niet gelijk doorgevoerd lijkt te worden probeer dan VSCode een keer te refreshen. De toetsencombinatie `Ctrl+R` is een snelle optie.
 
-## Bijdragen aan deze resource
